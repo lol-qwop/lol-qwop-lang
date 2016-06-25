@@ -35,6 +35,7 @@ int main(int argc, char **argv) {
         token = get_tok(file);
     }
 
+    putchar('\n');
     fclose(file);
 
     return 0;
